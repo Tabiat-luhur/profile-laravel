@@ -2,7 +2,7 @@
 import { Head, Link } from '@inertiajs/vue3';
 import { onMounted, ref } from "vue";
 import { LottieAnimation } from "lottie-web-vue";
-import WatermelonJSON from "/public/img/robot.json";
+import WatermelonJSON from "/public/img/orang.json";
 
 // Menginisialisasi variabel anim sebagai referensi Vue
 let anim = ref();
@@ -55,8 +55,8 @@ const props = defineProps({
     <nav class="bg-white">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="/" class="flex items-center">
-                <img src="img/logo_Web.png" class="h-8 mr-3" alt=" Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">Dosen AI</span>
+                <img src="img/LogoTabiat.png" class="h-8 mr-3" alt=" Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">My Portfolio</span>
             </a>
             <div class="flex md:order-2">
                 <div v-if="canLogin">
@@ -116,13 +116,9 @@ const props = defineProps({
                 <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
                     {{ slider.konten }}</p>
                 <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
-                    <a href="#"
+                    <a href="https://wa.me/6285225042347"
                         class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-                        Get started <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                            fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M1 5h12m0 0L9 1m4 4L9 9" />
-                        </svg>
+                        Chat Me On Whatsapp 
                     </a>
                     <a href="#"
                         class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
